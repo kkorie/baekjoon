@@ -2,6 +2,6 @@ import sys
 
 t = int(sys.stdin.readline())
 
-for _ in range(t):
+for i in range(t):
   a, b = map(int, sys.stdin.readline().split())
-  print(a+b)
+  print('Case #{}: {}'.format(i+1, a+b))
