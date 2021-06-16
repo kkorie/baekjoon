@@ -10,11 +10,3 @@ for _ in range(T):
   else:
     ans = (N%H)*100 + (N//H) + 1
   print(ans)
-
-  # if N <= H:
-  #   ans = N*100 + 1
-  # elif N > H and N%H == 0:
-  #   (N/H)*100 + (N/H)
-  # else:
-  #   ans = (N%H)*100 + (N//H) + 1
-  # print(ans)
