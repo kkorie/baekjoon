@@ -16,7 +16,7 @@ res = 0
 check = 0
 for i in data:
   check += 1
-  if check >= data:
+  if check >= i:
     res += 1
     check = 0
 
