@@ -1,5 +1,9 @@
-# food_times = list(map(int, input().split()))
-# k = int(input())
+food_times = list(map(int, input().split()))
+k = int(input())
+
+
+def solution(food_times, k):
+
 
 # def solution(food_times, k):
 #   check = 0
@@ -13,7 +17,7 @@
 #         check += 1
 #         food_times[i] -= 1
 #       print(food_times, i, check)
-#   return (i + 1) % len(food_times)
+#   return (i + 2) % len(food_times)
 
 # print(solution(food_times, k))
 
